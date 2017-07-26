@@ -563,6 +563,7 @@ footer #submit {
     height: 350px;
     border-top: 1px solid #e5e5e5;
     float: left;
+    margin-bottom: 20px;
 
 }
 
@@ -632,6 +633,7 @@ footer #submit {
         /* margin-top: -30px;*/
         background-color: white;
         margin-top: 1645px;
+        display: none;
     }
 
     #wrapper .new-arivals-title {
@@ -645,6 +647,7 @@ footer #submit {
         margin-top: 851px;
         font-size: 18px;
         background-color: white;
+        display: none;
     }
 
     #wrapper .popular-products {
@@ -658,6 +661,7 @@ footer #submit {
         margin-top: 500px;
         font-size: 18px;
         background-color: white;
+        display: none;
     }
 
     #wrapper .feature-products {
@@ -671,6 +675,7 @@ footer #submit {
         margin-top: 150px;
         font-size: 18px;
         background-color: white;
+        display: none;
     }
 
 }
@@ -753,6 +758,7 @@ footer #submit {
         /* margin-top: -30px;*/
         background-color: white;
         margin-top: 1645px;
+        display: none;
     }
 
     #wrapper .new-arivals-title {
@@ -766,6 +772,7 @@ footer #submit {
         margin-top: 851px;
         font-size: 18px;
         background-color: white;
+        display: none;
     }
 
     #wrapper .popular-products {
@@ -779,6 +786,7 @@ footer #submit {
         margin-top: 500px;
         font-size: 18px;
         background-color: white;
+        display: none;
     }
 
     #wrapper .feature-products {
@@ -792,6 +800,7 @@ footer #submit {
         margin-top: 150px;
         font-size: 18px;
         background-color: white;
+        display: none;
     }
 }
 
