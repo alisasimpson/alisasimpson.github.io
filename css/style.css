@@ -147,7 +147,7 @@ header img {
 }
 
 #main-menu {
-    width: 500px;
+    width: 64%;
     height: 30px;
     font-size: 12px;
     color: #333333;
@@ -177,11 +177,12 @@ header img {
     position: absolute;
     width: 20px;
     height: 20px;
-    float: right;
-    margin-bottom: 10px;
+    float: left;
+    margin-top: -2.3%;
     z-index: 8888;
-    margin-left: 757px;
+    margin-right: 20%;
     opacity: 0.8;
+
 }
 
 .menu-main {
@@ -212,7 +213,7 @@ header img {
     letter-spacing: 2px;
     position: relative;
     margin: 0 3px 0 3px;
-   /* font-size: 15px;*/
+    /* font-size: 15px;*/
     text-transform: uppercase;
     display: inline-block;
     transition: color .2s;
@@ -271,90 +272,9 @@ header img {
 #slader {
     float: left;
     width: 100%;
-    height:450px;
+    height: 450px;
     background-color: #ccb48e;
 }
-
-/*#wrapper .zzz {
-    width: 65%;
-    height: 50%;
-    margin-right: 700px;
-    position: relative;
-    z-index: 9999;
-    margin-bottom: 170px;
-
-}*/
-
-/*
-#wrapper .swiper-container {
-    width: 100%;
-    height: 500px;
-    float: left;
-    !*position: absolute;
-    z-index:0;*!
-}
-
-#wrapper .swiper-slide {
-    position: absolute ;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    !* Center slide text vertically *!
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-
-}
-
-#wrapper .swiper-slide img {
-    width: 100%;
-    height: 500px;
-}
-
-#wrapper .swiper-slide .zzz {
-    width: 65%;
-    height: 50%;
-    margin-right: 700px;
-    position: relative;
-    z-index: 9999;
-    margin-bottom: 170px;
-
-}
-
-#wrapper .swiper-slide .zzz p {
-    font-size: 1.3em;
-    text-align: left;
-    padding-right: 20%;
-    color: white;
-    Line-height: 1.7em;
-    opacity: 0.7;
-}
-*/
-
-/*#wrapper .swiper-button-next {
-        margin-right:10%;
-        margin-top:-80px;
-        width:80px;height:60px;
-    background-image: url('/image/next_btn.png');
-}
-
-#wrapper .swiper-button-prev {
-    margin-left:10%;
-     margin-top:-80px;
-     width:80px;height:60px;
-    background-image: url('/image/prev_btn.png');
-}*/
-
-/**************************************************/
 
 #banner {
     height: 140px;
@@ -366,14 +286,14 @@ header img {
 }
 
 #banner .banner1 {
-    width: 252px;
+    width: 32%;
     height: 100%;
     float: left;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
-#banner .banner1 .text-banner{
+#banner .banner1 .text-banner {
     width: 65%;
     height: 50%;
     margin-right: 700px;
@@ -384,8 +304,7 @@ header img {
     padding-left: 10px;
 }
 
-
-#banner .banner1 .text-banner-men{
+#banner .banner1 .text-banner-men {
     width: 65%;
     height: 50%;
     margin-right: 700px;
@@ -396,8 +315,7 @@ header img {
     padding-left: 10px;
 }
 
-
-#banner .banner1 .text-banner-sale{
+#banner .banner1 .text-banner-sale {
     width: 65%;
     height: 50%;
     margin-right: 700px;
@@ -409,7 +327,7 @@ header img {
 }
 
 #banner .banner1 img {
-    width: 259px;
+    width: 100%;
     height: 100%;
 }
 
@@ -464,10 +382,10 @@ footer #accept-us {
 }
 
 footer #sosials, #labels {
-    width: 245px;
+    width: 60%;
     height: 40px;
     float: right;
-
+    margin-right: 2%;
 }
 
 footer #sosials .sosial {
@@ -492,16 +410,10 @@ footer #text-follow, #text-accept {
     margin-top: 40px;
 }
 
-footer #text-follow {
-    width: 100px;
+footer #text-follow, #text-accept {
+    width: 20%;
     float: left;
 
-}
-
-#text-accept {
-    width: 90px;
-    float: left;
-    /*   margin-left: 40px;*/
 }
 
 /*footer #labels img {
@@ -517,7 +429,8 @@ footer .sosial-label {
     outline: 1px solid #666;
     margin-top: 40px;
 }
-footer .sosial-label img{
+
+footer .sosial-label img {
     width: 100%;
     height: 100%;
 
@@ -536,10 +449,10 @@ footer #list-menu {
 }
 
 .block-list {
-    width: 117px;
+    width: 14%;
     float: left;
     font-size: 9px;
-    margin-right: 14px;
+    margin-right: 2%;
 }
 
 #list-menu ul {
@@ -583,7 +496,7 @@ footer #sign-to-mail {
 }
 
 footer #email {
-    width: 210px;
+    width: 65%;
     border: transparent;
     height: 30px;
     font-size: 9px;
@@ -595,7 +508,7 @@ footer #submit {
     color: white;
     border: transparent;
     font-size: 9px;
-    width: 100px;
+    width: 30%;
 }
 
 #wrapper {
@@ -611,14 +524,15 @@ footer #submit {
 }
 
 #wrapper .brands {
-     height: 200px;
-     width: 16.6%;
-     float: left;
- }
+    height: 200px;
+    width: 16.6%;
+    float: left;
+}
 
 #wrapper .brands p:hover {
-   color: #fffc3c;
+    color: #fffc3c;
 }
+
 #wrapper .brands p {
     padding-top: 90px;
     font-size: 21px;
@@ -637,60 +551,6 @@ footer #submit {
     padding-left: 60px;
 }
 
-#wrapper .shop-by-brands {
-    width: 160px;
-    padding: 10px;
-    height: 20px;
-    z-index: 9999;
-    position: absolute;
-    color: #5d5d5d;
-    margin-left: 580px;
-    font-size: 18px;
-   /* margin-top: -30px;*/
-    background-color: white;
-    margin-top: 1645px;
-    position: absolute;
-}
-
-#wrapper .new-arivals-title {
-    width: 160px;
-    padding: 10px;
-    height: 20px;
-    z-index: 9999;
-    position: absolute;
-    color: #5d5d5d;
-    margin-left: 330px;
-    margin-top: 851px ;
-    font-size: 18px;
-    background-color: white;
-}
-
-#wrapper .popular-products {
-    width: 160px;
-    padding: 10px;
-    height: 20px;
-    z-index: 9999;
-    position: absolute;
-    color: #5d5d5d;
-    margin-left: 330px;
-    margin-top: 498px ;
-    font-size: 18px;
-    background-color: white;
-}
-#wrapper .feature-products {
-    width: 160px;
-    padding: 10px;
-    height: 20px;
-    z-index: 9999;
-    position: absolute;
-    color: #5d5d5d;
-    margin-left: 330px;
-    margin-top: 150px ;
-    font-size: 18px;
- background-color: white;
-}
-
-
 #wrapper #center-block {
     width: 60%;
     margin-right: 20%;
@@ -703,6 +563,7 @@ footer #submit {
     height: 350px;
     border-top: 1px solid #e5e5e5;
     float: left;
+
 }
 
 #wrapper #center-block .new-arivals .article {
@@ -711,7 +572,6 @@ footer #submit {
     margin-top: 5%;
     background-color: white;
     float: left;
-
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -740,11 +600,470 @@ footer #submit {
 }
 
 #wrapper #center-block .new-arivals .article button {
-    width: 110px;
+    width: 60%;
     height: 40px;
-    margin-left: 30px;
+    margin-left: 20%;
     background-color: #ccb48e;
     color: white;
     border: transparent;
     cursor: pointer;
 }
+
+#wrapper #center-block .new-arivals {
+    width: 100%;
+    height: 350px;
+    border-top: 1px solid #e5e5e5;
+    float: left;
+}
+
+/* Style for 1310px*/
+
+@media (min-width: 1310px) {
+
+    #wrapper .shop-by-brands {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 580px;
+        font-size: 18px;
+        /* margin-top: -30px;*/
+        background-color: white;
+        margin-top: 1645px;
+    }
+
+    #wrapper .new-arivals-title {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 851px;
+        font-size: 18px;
+        background-color: white;
+    }
+
+    #wrapper .popular-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 500px;
+        font-size: 18px;
+        background-color: white;
+    }
+
+    #wrapper .feature-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 150px;
+        font-size: 18px;
+        background-color: white;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    #wrapper .shop-by-brands {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 580px;
+        font-size: 18px;
+        /* margin-top: -30px;*/
+        background-color: white;
+        margin-top: 1645px;
+        display: none;
+    }
+
+    #wrapper .new-arivals-title {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 851px;
+        font-size: 18px;
+        background-color: white;
+        display: none;
+    }
+
+    #wrapper .popular-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 500px;
+        font-size: 18px;
+        background-color: white;
+        display: none;
+    }
+
+    #wrapper .feature-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 150px;
+        font-size: 18px;
+        background-color: white;
+        display: none;
+    }
+
+    #cart1 {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1298px) {
+
+    #wrapper .shop-by-brands {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 590px;
+        font-size: 18px;
+        /* margin-top: -30px;*/
+        background-color: white;
+        margin-top: 1645px;
+    }
+
+    #wrapper .new-arivals-title {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 851px;
+        font-size: 18px;
+        background-color: white;
+    }
+
+    #wrapper .popular-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 500px;
+        font-size: 18px;
+        background-color: white;
+    }
+
+    #wrapper .feature-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 150px;
+        font-size: 18px;
+        background-color: white;
+    }
+}
+
+@media (max-width: 1298px) {
+
+    #wrapper .shop-by-brands {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 500px;
+        font-size: 18px;
+        /* margin-top: -30px;*/
+        background-color: white;
+        margin-top: 1645px;
+        display: none;
+    }
+
+    #wrapper .new-arivals-title {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 851px;
+        font-size: 18px;
+        background-color: white;
+        display: none;
+    }
+
+    #wrapper .popular-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 500px;
+        font-size: 18px;
+        background-color: white;
+        display: none;
+    }
+
+    #wrapper .feature-products {
+        width: 160px;
+        padding: 10px;
+        height: 20px;
+        z-index: 9999;
+        position: absolute;
+        color: #5d5d5d;
+        margin-left: 330px;
+        margin-top: 150px;
+        font-size: 18px;
+        background-color: white;
+        display: none;
+    }
+
+    /*menu*/
+    #wrapper-menu {
+        height: 70px;
+        background-color: white;
+        width: 100%;
+        float: left;
+        z-index: 99;
+        position: absolute;
+        margin-top: 40px;
+        opacity: 0.9;
+
+    }
+
+    #menu {
+        width: 60%;
+        margin-right: 20%;
+        margin-left: 20%;
+        float: left;
+        margin-top: 1%;
+    }
+
+    #logo {
+        width: 120px;
+        height: 20px;
+        font-size: 20px;
+        color: #333333;
+        margin-top: 10px;
+        float: left;
+    }
+
+    #main-menu {
+        width: 64%;
+        height: 30px;
+        font-size: 10px;
+        color: #333333;
+        margin-top: 10px;
+        float: left;
+    }
+
+    #search {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 50px;
+
+    }
+
+    #cart {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 20px;
+
+    }
+
+    #cart1 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: -2.3%;
+        z-index: 8888;
+        margin-right: 20%;
+        opacity: 0.8;
+
+    }
+
+    .menu-main {
+        list-style: none;
+        /* margin: 20px 0 5px;
+         padding: 20px 0 5px;*/
+        text-align: center;
+        background: white;
+    }
+
+    .menu-main li {
+        display: inline-block;
+    }
+
+    .menu-main li:after {
+        color: #333333;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .menu-main li:last-child:after {
+        content: none;
+    }
+
+    .menu-main a {
+        text-decoration: none;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        letter-spacing: 2px;
+        position: relative;
+        margin: 0 3px 0 3px;
+        /* font-size: 15px;*/
+        text-transform: uppercase;
+        display: inline-block;
+        transition: color .2s;
+    }
+
+    .menu-main a, .menu-main a:visited {
+        color: #9d999d;
+    }
+
+    .menu-main a.current, .menu-main a:hover {
+        color: #333333;
+    }
+
+    .menu-main a:before,
+    .menu-main a:after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        top: auto;
+        right: 50%;
+        bottom: -5px;
+        left: 50%;
+        background: #333333;
+        transition: .8s;
+    }
+
+    .menu-main a:hover:before, .menu-main .current:before {
+        left: 0;
+    }
+
+    .menu-main a:hover:after, .menu-main .current:after {
+        right: 0;
+    }
+
+    @media (max-width: 550px) {
+        .menu-main {
+            padding-top: 0;
+        }
+
+        .menu-main li {
+            display: block;
+        }
+
+        .menu-main li:after {
+            content: none;
+        }
+
+        .menu-main a {
+            padding: 25px 0 20px;
+            margin: 0 30px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #main-menu {
+        width: 64%;
+        height: 30px;
+        font-size: 8px;
+        color: #333333;
+        margin-top: 10px;
+        float: left;
+    }
+
+    #search {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 20px;
+
+    }
+
+    #cart {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    #cart1 {
+        display: none;
+    }
+
+    footer #sign-text {
+        color: #333333;
+        width: 58%;
+        float: left;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #search {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    #cart {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 2px;
+    }
+}
+
+
+
+
